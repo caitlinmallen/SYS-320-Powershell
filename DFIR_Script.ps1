@@ -90,7 +90,15 @@ $continue = $true
 
 DO{
 
-    $Choice = Read-Host "What would you like to do?" 
+    $Choice = Read-Host "What would you like to do?
+    
+    [1] - List all services on this computer
+    [2] - List all live services on this computer
+    [3] - List all users on this computer
+    [4] - List all installed software on this computer
+    [5] - List all TCP connections being made to this computer
+    [6] - Exit this program" 
+
 
     switch ($Choice){
         "1" {Services-Collection; break}
