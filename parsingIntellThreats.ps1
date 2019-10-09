@@ -1,3 +1,6 @@
+#This is kind of a working mess, apologies in advanced for whoever reads this code
+
+
 # Array of websites containing threat intell
 $drop_urls = @('https://rules.emergingthreats.net/blockrules/emerging-botcc.rules','https://rules.emergingthreats.net/blockrules/compromised-ips.txt')
 
